@@ -1,5 +1,5 @@
 {
-  "name": "apn",
+  "name": "apn-http2",
   "description": "An interface to the Apple Push Notification service for Node.js",
   "version": "3.0.0",
   "author": "Andrew Naylor <argon@mkbot.net>",
@@ -21,15 +21,15 @@
   "types": "index.d.ts",
   "bugs": {
     "email": "florian.reinhart@gmail.com",
-    "url": "https://github.com/node-apn/node-apn/issues"
+    "url": "https://github.com/BlockchainCC/node-apn-http2/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/node-apn/node-apn.git"
+    "url": "https://github.com/BlockchainCC/node-apn.git"
   },
   "dependencies": {
     "debug": "^3.1.0",
-    "http2": "https://github.com/node-apn/node-http2/archive/apn-2.1.4.tar.gz",
+    "http2": "3.3.6",
     "node-forge": "^0.7.1",
     "jsonwebtoken": "^8.1.0",
     "verror": "^1.10.0"
